@@ -143,7 +143,6 @@ public class GWPCAccPolCreationGL {
 		
 		// From General Liability Screen, Select Extentions, Flat Charge fields and navigate to the next page
 		
-		//**********
 		WebElement extentions = driver.findElement(By.name("SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-GL7GeneralLiabilityCoveragesScreen-GL7GeneralLiabilitySublines_ExtCV-0-LobEntityDV-39-LobInputSet-LobInternalInputSet-Input"));
 		Select dropdownextentions = new Select(extentions);
 		dropdownextentions.selectByVisibleText("General Liability Elite Extension");
